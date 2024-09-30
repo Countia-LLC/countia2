@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { View, TextInput, TouchableOpacity, Text, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
 import io from 'socket.io-client';
 
-const ENDPOINT = 'https://countia.mahabot.in'; // Replace with your actual backend URL
+const ENDPOINT = 'https://countia.mahabot.in'; 
 
 export default function Chat() {
   const [messages, setMessages] = useState([]);
